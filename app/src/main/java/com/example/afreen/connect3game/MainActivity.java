@@ -73,8 +73,8 @@ public class MainActivity extends AppCompatActivity {
                     boolean gameIsOver=true;
 
                     for(int counterState:gameState){
-                        if(counterState==2){
-                            gameIsOver=false;
+                        if(counterState==2)
+                             gameIsOver=false;
                         }
                         if(gameIsOver){
 
@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         }
-    }
+ 
 
     public void playAgain(View view)
     {
